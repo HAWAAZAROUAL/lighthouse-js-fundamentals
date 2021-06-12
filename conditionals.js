@@ -29,6 +29,7 @@ if(temperature<0){
 console.log("Now you are ready to go outside.");
 */
 //LOGICAL OPERATORS
+/*
 const isCitizen= true;
 const age= 26;
 if( isCitizen && age > 18){
@@ -42,3 +43,28 @@ if( temperature < -40 || temperature > 40){
 if( !raining){
     console.log("don't bring umbrella");
 }
+CONDITIONALS CHALLENGE-WHICHFUNCTION
+/*
+let age= 15
+if( age < 13){
+    whichSchool= "Elementary School"
+    console.log("you should go to "+ whichSchool)
+} else if( age >= 13 || age <19){
+    whichSchool= "Secondary School"
+    console.log( "you should go to "+ whichSchool)
+} else { 
+    whichschool= "Lighthouse Labs"
+    console.log( "You should go to "+ whichSchool)
+}
+*/
+/*LOOPING CHALLENGE
+let num= 100
+while(num= 200){
+num= num +1
+} */
+
+for (var x = 0; x < 5; x = x + 1) {
+    for (var y = 0; y < 3; y = y + 1) {
+      console.log(x + "," + y);
+    }
+  }
