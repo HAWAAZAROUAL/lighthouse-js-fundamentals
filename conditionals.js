@@ -57,14 +57,26 @@ if( age < 13){
     console.log( "You should go to "+ whichSchool)
 }
 */
-/*LOOPING CHALLENGE
-let num= 100
-while(num= 200){
-num= num +1
-} */
+//LOOPING CHALLENGE
+let x= 100;
+while(x<= 200){
+ if(x % 3=== 0 && x % 4 === 0){
+  console.log("LoopyLighthouse");
+} else if ( x % 4 === 0){
+  console.log("Lighthouse");
+} else if (x % 3 === 0){
+  console.log("Loopy");
+} else {
+  console.log(x);
+    
+}
+x= x+1
+}
 
 for (var x = 0; x < 5; x = x + 1) {
     for (var y = 0; y < 3; y = y + 1) {
       console.log(x + "," + y);
     }
   }
+
+  
